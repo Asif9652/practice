@@ -4,7 +4,24 @@
     box-sizing: border-box;
 }
 .frist{
-    height: 100%;
-    width: 100%;
-    background-image: url("bck.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../html/bck.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+h1{
+    color: blue;
+    font-size: 12vmin;
+}
+p{
+    color: brown;
+    font-size: 5vmin;
+}
+button{
+    border: 2px soild black;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 5vmin;
 }
